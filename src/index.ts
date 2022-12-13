@@ -18,7 +18,7 @@ function handleDragOver(evt:any) {
     evt.stopPropagation();
     evt.preventDefault(); //que no se abra en otra ventana sola la imagen
     evt.dataTransfer.dropEffect = 'copy'; // Explicitly show this is a copy.
-}
+  }
 
   /** Variables que controla el canvas de la imagen, el primero 
    * posteriormemte se volveran arreglos cuando ya controlemos las seis ventanas de nuestro frame
